@@ -1,0 +1,48 @@
+package cost_for_3dp;
+
+public class main
+{
+
+int a,b,d,x,z,e,f;
+String y;
+int out1,out2,out3,out4;
+    public static void main(String args[])
+    {
+        Scanner inp=new Scanner.in();
+        System.out.println("Enter the cost of the material");
+        a=inp.nextInt();
+        System.out.println("Enter the Time of  printing of the material");
+        b=inp.nextInt();
+        System.out.println("Enter the finishing cost");
+        d=inp.nextInt();
+        System.out.println("Enter the other expences cost");
+        e=inp.nextInt();
+        out1=a+b+d+e;
+        System.out.println("The actual cost is"+out1);
+
+        System.out.println("Select profit percentage percentage");
+        profit1 ne=new profit1(x);
+
+        out2=out1*c;
+
+            System.out.println("Do You want To Add Human Cost");
+            y = inp.nextLine();
+
+
+            if(y =="Y" || "y")
+            {
+                System.out.println("Enter the Human cost");
+                z=inp.nextInt();
+            }
+            else
+                {
+                z = 0;
+                }
+            out3=out2+z;
+
+            System.out.print("Total cost of the Print is "+out4);
+    }
+}
+
+
+
